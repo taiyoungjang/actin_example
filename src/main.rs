@@ -16,7 +16,7 @@ async fn main() -> std::io::Result<()> {
 
 
 #[get("/")]
-async fn hello() -> impl Responder {-
+async fn hello() -> impl Responder {
     HttpResponse::Ok().body("Hello world!")
 }
 
